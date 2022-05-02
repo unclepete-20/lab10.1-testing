@@ -1,6 +1,6 @@
 ![GitHub watchers](https://img.shields.io/github/watchers/unclepete-20/proyecto01-amazon20188?style=social) ![GitHub followers](https://img.shields.io/github/followers/unclepete-20?style=social) ![GitHub last commit](https://img.shields.io/github/last-commit/unclepete-20/proyecto01-amazon20188) ![GitHub package.json dependency version (dev dep on branch)](https://img.shields.io/github/package-json/dependency-version/unclepete-20/proyecto01-amazon20188/dev/@babel/preset-react) ![npm dev dependency version](https://img.shields.io/npm/dependency-version/eslint-plugin-react/dev/eslint) ![GitHub](https://img.shields.io/github/license/unclepete-20/proyecto01-amazon20188)
 
-# Proyecto Clon de Amazon :rocket:
+# Laboratorio #10 Calculadora 🧮
 
 Este es el Laboratorio #10 del curso de Sistemas y Tecnologías Web del año 2022, impartido en la Universidad del Valle de Guatemala. Este laboratorio consiste en implementar una aplicación web que permita desplegar una calculadora funcional con
 operaciones matemáticas como: suma, resta, multiplicación, división y la operación de módulo. Esta calculadora presentará una interfaz gráfica con una interfaz de usuario que permita ingresar los valores a operar y un botón para calcular. Dicha interfaz gráfica representará la de una calculadora [Casio](https://www.casio.com/latin/scientific-calculators/product.FX-991LAX/).
