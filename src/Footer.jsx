@@ -1,15 +1,15 @@
 /* eslint-disable prettier/prettier */
 import React from "react"
-import "./Header.sass"
+import "./Footer.sass"
 import TypeAnimation from "react-type-animation"
 
-export default function Header() {
+export default function Footer() {
   return (
-    <div className="Header">
+    <div className="Footer">
       <TypeAnimation
         cursor
-        sequence={["Calculadora Casio ClassWiz fx-991LA X 🧮", 5000, " "]}
-        wrapper="h1"
+        sequence={["Pedro Pablo Arriola Jimenez (20188) 💻", 1000, " "]}
+        wrapper="h2"
         repeat={Infinity}
       />
     </div>
