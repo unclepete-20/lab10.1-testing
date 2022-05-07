@@ -1,6 +1,7 @@
-const path = require("path");
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+/* eslint-disable prettier/prettier */
+const path = require("path")
+const HtmlWebpackPlugin = require("html-webpack-plugin")
+const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 
 module.exports = {
   mode: "development",
@@ -9,7 +10,7 @@ module.exports = {
   // Name and path of output file
   output: {
     filename: "[name].bundle.js",
-    path: path.resolve(__dirname, "ARR20188amazon"),
+    path: path.resolve(__dirname, "ARR20188Calculadora"),
   },
   // Loaders for different file types
   plugins: [
@@ -48,4 +49,4 @@ module.exports = {
       },
     ],
   },
-};
+}

@@ -27,7 +27,8 @@ export default function Calculator() {
   }
 
   return (
-    <div className="calculator-container">
+    <div className="calculator-shadow">
+      <div className="calculator-container">
       <div className="calculator-front">
         <div className="calculator-header">
           <div className="calculator-header-title">
@@ -41,6 +42,7 @@ export default function Calculator() {
         <div className="calculator-keyboard">
           <Operations funcion={inputFuncion} />
         </div>
+      </div>
       </div>
     </div>
   )
