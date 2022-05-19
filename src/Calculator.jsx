@@ -38,7 +38,7 @@ export default function Calculator() {
           </div>
           <div className="solar-panel" />
         </div>
-        <input maxLength={10} type="text" className="calculator-display" value={result} />
+        <input maxLength={10} type="text" className="calculator-display" defaultValue={result} />
         <div className="calculator-keyboard">
           <Operations funcion={inputFuncion} />
         </div>
