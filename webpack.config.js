@@ -1,16 +1,15 @@
-/* eslint-disable prettier/prettier */
 const path = require("path")
 const HtmlWebpackPlugin = require("html-webpack-plugin")
 const MiniCssExtractPlugin = require("mini-css-extract-plugin")
 
 module.exports = {
   mode: "development",
-  // Entre point of project 
+  // Entre point of project
   entry: "./src/index.jsx",
   // Name and path of output file
   output: {
     filename: "[name].bundle.js",
-    path: path.resolve(__dirname, "ARR20188Calculadora"),
+    path: path.resolve(__dirname, "ARR20188Calculadora")
   },
   // Loaders for different file types
   plugins: [
@@ -26,27 +25,27 @@ module.exports = {
       // Loader for css files
       {
         test: /\.(scss|sass|css)$/i,
-        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"],
+        use: [MiniCssExtractPlugin.loader, "css-loader", "sass-loader"]
       },
       // Loader for js files
       {
         test: /\.(js|jsx)$/i,
         exclude: /(node_modules)/,
         use: {
-          loader: 'babel-loader',
+          loader: "babel-loader",
           options: {
-            presets: ['@babel/preset-env', '@babel/preset-react']
+            presets: ["@babel/preset-env", "@babel/preset-react"]
           }
         }
       },
       // Loader for images and files
       {
         test: /\.(png|jpe?g|gif|mp4)$/i,
-        loader: 'file-loader',
+        loader: "file-loader",
         options: {
-          outputPath: 'assets',
-        },
-      },
-    ],
-  },
+          outputPath: "assets"
+        }
+      }
+    ]
+  }
 }
